@@ -215,7 +215,7 @@ h1{
 
 
 @media(max-width:768px){
-    .skill-segemnt .diamond-grid{
+    .container{
     
         width: 40%;
         margin: 150px 320px 0;
