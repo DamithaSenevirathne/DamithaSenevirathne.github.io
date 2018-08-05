@@ -1,79 +1,22 @@
-body, html{
+*{
+
+    margin: 0;
+    padding: 0;
+
+
+}
+
+h1{
 
     height:100%;
     margin:0;
-    font-size:16px;
-    font-family: "Lato", sans-serif;
+    font-size:30px;
+    font-family: "Lato" sans-serif;
     font-weight: 400;
     line-height: 1.8em;
     color:#666;
 
-}
-
-
-/*when there are multiple classes remember to put , 'commas between classes'*/
-.pimg1, .pimg2, .pimg3{
-
     position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat:no-repeat; 
-
-    background-attachment:fixed;/*parllax effect*/
-
-    /*
-
-    fixed = parallax;
-
-    scroll = normal;      
-    
-    */
-}
-
-
-.pimg1{
-
-    background-image: url("../images/im1.jpg");
-    min-height: 100%;
-}
-
-.pimg2{
-
-    background-image: url("../images/im2.jpg");
-    min-height: 500px;
-}
-
-.pimg3{
-
-    background-image: url("../images/im3.jpg");
-    min-height: 500px;
-}
-
-
-section{
-
-    text-align:center;
-    padding: 50px 80px;
-
-
-}
-
-.section-light{
-
-    background-color: lightgray;
-    color:#666;
-}
-
-.section-dark{
-
-    background: color #232e23;;
-    color:#ddd;
-}
-
-.ptext{
-
-    position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
@@ -82,21 +25,213 @@ section{
     letter-spacing: 8px;/*horizontal spacing*/
     text-transform: uppercase;
 
+}
+
+#particles-js{
+
+    background: firebrick;
+    height: 400px;
 
 }
 
-.ptext .border{
 
-    background-color: #111;
-    color: white;
-    padding: 20px;
+
+
+.intro{
+
+    min-height: 200px;
+    width: 100%;
+    background-color: black;
+
 }
 
-/*be careful with spaces border.trans and .border .trans means
-  two things
-*/
-.ptext .border.trans{
+.education{
+
+    
+    min-height: 200px;
+    width: 100%;
+    background-image: url('../images/eduback.jpg');
+    background-size: cover;
+    background-attachment:fixed;/*parllax effect*/
+
+
+
+}
+
+
+
+
+.skill-segemnt{
+
+    min-height: 800px;
+    width: 100%;
+    background-image: url('../images/skill.jpg');
+    background-size: cover;
+    background-attachment:fixed;/*parllax effect*/
+
+}
+
+
+
+.skill-detali{
+
+    min-height: 200px;
+    width: 100%;
+    background-size: cover;
+
+    
+}
+
+
+.projects{
+
+    min-height: 200px;
+    width: 100%;
+    background-image: url('../images/back-5.jpg');
+    background-size: cover;
+
+}
+
+
+.online-apperence{
+
+    min-height: 200px;
+    width: 100%;
+    background-image: url('../images/back-5.jpg');
+    background-size: cover;
+
+}
+
+
+.footer{
+
+    min-height: 200px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.skill-segemnt .diamond-grid{
+    
+    width: 70%;
+    margin: 150px 320px 0;
+}
+
+
+
+.education .edu-img-1 img{
+
+    position: relative;
+    margin-top: 6px;
+    border : #000 2px solid;
+    border-radius: 10px;
+
+    width: 100px;
+    height: 120px;
+
+    margin-left: 35px;
+    margin-bottom: 30px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    background-color: #fff;
+
+
+
+}
+
+
+.education .edu-img-2 img{
+
+    position: relative;
+    border : #000 2px solid;
+    border-radius: 10px;
+    margin-top: 6px;
+    width: 100px;
+    height: 120px;
+
+    margin-left: 35px;
+    margin-bottom: 30px;
+
     background-color: transparent;
+
+
+
+}
+
+
+.item{
+
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    opacity: 0.5;
+    transition: 0.5s;
+    
+    
+}
+
+.item:hover{
+
+    opacity: 1;
+}
+
+
+.item img{
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) scale(0.5);
+    width: 100%;
+
+
+}
+
+
+.skill-segemnt .text-area{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+.skill-detali .button {
+
+    position: relative;
+    font-size: 18px;
+    width: 95px;
+    text-decoration: none;
+    color: #926239;
+    border : #926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    left:45%;
+    
+
+}
+
+
+@media(max-width:768px){
+    .skill-segemnt .diamond-grid{
+    
+        width: 70%;
+        margin: 150px 320px 0;
+    }
+}
+
+
+
+/*compettition*/
+
+.container .section-1{
+
+    width:100%;
+    min-height: 400px;
+    background-image: url('../images/dev.jpg');
+    background-attachment:fixed;
 
 
 }
