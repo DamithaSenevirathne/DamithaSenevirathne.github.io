@@ -25,6 +25,14 @@ h1{
     letter-spacing: 8px;/*horizontal spacing*/
     text-transform: uppercase;
 
+    
+
+}
+
+h3{
+
+    position: absolute;
+    opacity: 0.8;
 }
 
 #particles-js{
