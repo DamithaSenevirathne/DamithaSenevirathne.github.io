@@ -29,19 +29,51 @@ h1{
 
 }
 
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.navbar ul li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 33.333%;
+    height: 40px;
+    line-height: 30px;
+    opacity: 0.9;
+    color: snow;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+.navbar ul li:hover{
+
+    background-color: black;
+}
+
+.intro{
+
+    background-image: url("../images/bigger.jpg");
+    
+}
+
 h3{
 
     position: absolute;
     opacity: 0.8;
 }
-
-#particles-js{
-
-    background: indigo;
-    height: 400px;
-
-}
-
 
 
 
@@ -244,6 +276,40 @@ h3{
 
 }
 
+
+/*projects*/
+
+#particles-js{
+
+    background-image: url('../images/back-2.jpg');
+    background-attachment: fixed;
+    height: 400px;
+
+}
+
+#particles-js h3{
+
+    position: absolute;
+    font-size: 180px;
+    width: 40%;
+    margin-left: 19%;
+    margin-top: 3%;
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 8px;/*horizontal spacing*/
+    text-transform: uppercase;
+    text-align: center;
+
+
+
+}
+
+.box-2{
+
+    position: relative;
+    background:#666; 
+}
 
 
 
