@@ -290,10 +290,10 @@ h3{
 #particles-js h3{
 
     position: absolute;
-    font-size: 180px;
+    font-size: 120px;
     width: 100%;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 6%;
     font-family: "Lato" sans-serif;
     font-weight: 400;
     line-height: 1.8em;
