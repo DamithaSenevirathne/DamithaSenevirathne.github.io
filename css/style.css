@@ -312,5 +312,13 @@ h3{
 }
 
 
+@media(max-width:700px){
+    #particles-js h3{
+        width:100px;
+        float:none;
+    }
+
+    }
+
 
 
