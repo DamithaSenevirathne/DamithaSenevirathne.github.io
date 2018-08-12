@@ -327,8 +327,10 @@ h3{
 
 .box-2{
 
-    position: relative;
-    background:#666; 
+    background-image: url('../images/box-back-com.jpg');
+    border: black solid;
+    padding: 10px 10px 10px 10px;
+    font-size: 20p
 }
 
 
