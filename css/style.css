@@ -25,12 +25,36 @@ p{
     padding: 10px 20px;
     border-radius: 10px;
     text-align: center;
-    left:45%;
+    left:43%;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    
+}
+
+.button1{
+
+    position: relative;
+    font-size: 18px;
+    width: 95px;
+    background: green;
+    color: white;
+    border : green 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    left:43%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
 }
 
 .button:hover{
+
+    background: darkgreen;
+
+}
+
+.button1:hover{
 
     background: darkgreen;
 
@@ -122,9 +146,9 @@ h3{
     
     min-height: 200px;
     width: 100%;
-    background-image: url('../images/eduback.jpg');
+    background-image: url('');
     background-size: cover;
-    background-attachment:fixed;/*parllax effect*/
+   
 
 
 
@@ -133,7 +157,7 @@ h3{
 
 
 
-.skill-segemnt{
+.skill-segemnt .skills{
 
     min-height: 800px;
     width: 100%;
@@ -264,21 +288,6 @@ h3{
 }
 
 
-.skill-detali .button {
-
-    position: relative;
-    font-size: 18px;
-    width: 95px;
-    text-decoration: none;
-    color: #926239;
-    border : #926239 1px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
-    text-align: center;
-    left:45%;
-    
-
-}
 
 
 @media(max-width:720px){
@@ -330,7 +339,7 @@ h3{
     background-image: url('../images/box-back-com.jpg');
     border: black solid;
     padding: 10px 10px 10px 10px;
-    font-size: 20p
+    font-size: 20px;
 }
 
 
@@ -346,6 +355,7 @@ h3{
 
 .box-1{
 
+    padding-bottom: 20px;
     background-image: url('../images/box-back-com.jpg');
     border: black solid;
     padding: 10px 10px 10px 10px;
