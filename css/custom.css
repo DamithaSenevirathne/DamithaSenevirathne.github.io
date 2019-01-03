@@ -115,3 +115,54 @@ footer{
 
 
 }
+
+/*parallax effect*/
+
+.pimg1, .pimg2, .pimg3{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat; 
+
+    background-attachment:fixed;/*parllax effect*/
+
+    /*
+
+    fixed = parallax;
+
+    scroll = normal;      
+    
+    */
+}
+
+
+.pimg1{
+
+    background-image: url("../images/im4.jpg");
+    min-height: 100%;
+ 
+}
+
+.pimg2{
+
+    background-image: url("../images/im2.jpg");
+    min-height: 500px;
+
+}
+
+.pimg3{
+
+    background-image: url("../images/im3.jpg");
+    min-height: 500px;
+
+}
+
+
+section{
+
+    text-align:center;
+    padding: 50px 80px;
+
+
+}
