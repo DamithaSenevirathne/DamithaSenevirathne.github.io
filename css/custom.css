@@ -85,3 +85,33 @@ footer{
 
     background: url("../img/background.jpg");
 }
+
+
+
+
+#particles-js{
+
+    background-image: url('../images/project-back-2.jpg');
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%
+
+}
+
+#particles-js h3{
+
+    position: absolute;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 8px;/*horizontal spacing*/
+    text-transform: uppercase;
+    text-align: center;
+
+
+
+}
