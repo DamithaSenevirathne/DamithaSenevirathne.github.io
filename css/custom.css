@@ -91,7 +91,7 @@ footer{
 
 #particles-js{
 
-    background-image: url('../images/project-back-2.jpg');
+    background-color: blue;
     background-attachment: fixed;
     height: 400px;
     width: 100%
